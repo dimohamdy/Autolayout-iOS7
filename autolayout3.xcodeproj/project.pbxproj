@@ -21,6 +21,7 @@
 		FE98C28A192B8DB200E3897E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE98C26C192B8DB100E3897E /* UIKit.framework */; };
 		FE98C292192B8DB200E3897E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE98C290192B8DB200E3897E /* InfoPlist.strings */; };
 		FE98C294192B8DB200E3897E /* autolayout3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE98C293192B8DB200E3897E /* autolayout3Tests.m */; };
+		FE98C29E192B8F7300E3897E /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE98C29D192B8F7300E3897E /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FE98C28F192B8DB200E3897E /* autolayout3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "autolayout3Tests-Info.plist"; sourceTree = "<group>"; };
 		FE98C291192B8DB200E3897E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE98C293192B8DB200E3897E /* autolayout3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autolayout3Tests.m; sourceTree = "<group>"; };
+		FE98C29D192B8F7300E3897E /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				FE98C27A192B8DB200E3897E /* Main.storyboard */,
 				FE98C27D192B8DB200E3897E /* DMViewController.h */,
 				FE98C27E192B8DB200E3897E /* DMViewController.m */,
+				FE98C29D192B8F7300E3897E /* image.jpg */,
 				FE98C280192B8DB200E3897E /* Images.xcassets */,
 				FE98C26F192B8DB100E3897E /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE98C281192B8DB200E3897E /* Images.xcassets in Resources */,
+				FE98C29E192B8F7300E3897E /* image.jpg in Resources */,
 				FE98C273192B8DB100E3897E /* InfoPlist.strings in Resources */,
 				FE98C27C192B8DB200E3897E /* Main.storyboard in Resources */,
 			);

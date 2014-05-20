@@ -23,22 +23,48 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="95I-wD-3yv">
                                         <rect key="frame" x="8" y="20" width="160" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C84-L0-ZYN">
+                                                <rect key="frame" x="18" y="12" width="122" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" red="1" green="0.0" blue="0.01085100634" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="C84-L0-ZYN" firstAttribute="top" secondItem="95I-wD-3yv" secondAttribute="top" constant="10" id="PjA-4N-9wa"/>
+                                            <constraint firstItem="C84-L0-ZYN" firstAttribute="leading" secondItem="95I-wD-3yv" secondAttribute="leading" constant="10" id="cp8-2y-ntB"/>
+                                            <constraint firstAttribute="trailing" secondItem="C84-L0-ZYN" secondAttribute="trailing" constant="10" id="dIv-nD-LtS"/>
+                                            <constraint firstAttribute="bottom" secondItem="C84-L0-ZYN" secondAttribute="bottom" constant="13" id="ndi-sx-6cS"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRE-ZG-s3m">
                                         <rect key="frame" x="185" y="20" width="127" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="image.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qQU-lo-ugf">
+                                                <rect key="frame" x="2" y="12" width="122" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.3412032103" green="1" blue="0.20756381979999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="qQU-lo-ugf" firstAttribute="top" secondItem="DRE-ZG-s3m" secondAttribute="top" constant="10" id="FJw-WV-s9e"/>
+                                            <constraint firstAttribute="trailing" secondItem="qQU-lo-ugf" secondAttribute="trailing" constant="10" id="XIK-Ci-K0G"/>
+                                            <constraint firstItem="qQU-lo-ugf" firstAttribute="leading" secondItem="DRE-ZG-s3m" secondAttribute="leading" constant="2" id="dEi-8Q-3kR"/>
+                                            <constraint firstAttribute="bottom" secondItem="qQU-lo-ugf" secondAttribute="bottom" constant="10" id="var-31-Vlc"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.21951676040721771" green="0.43353673815727234" blue="0.23272510167284718" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="C84-L0-ZYN" firstAttribute="height" secondItem="qQU-lo-ugf" secondAttribute="height" id="5a9-6a-Mxi"/>
                                     <constraint firstItem="DRE-ZG-s3m" firstAttribute="width" secondItem="95I-wD-3yv" secondAttribute="width" id="8UN-DT-hQR"/>
                                     <constraint firstAttribute="bottom" secondItem="DRE-ZG-s3m" secondAttribute="bottom" constant="20" id="Eeo-3j-fqo"/>
                                     <constraint firstAttribute="bottom" secondItem="95I-wD-3yv" secondAttribute="bottom" constant="20" id="LKA-lK-MdL"/>
                                     <constraint firstItem="DRE-ZG-s3m" firstAttribute="leading" secondItem="95I-wD-3yv" secondAttribute="trailing" constant="17" id="MKj-6p-Fbc"/>
                                     <constraint firstItem="95I-wD-3yv" firstAttribute="top" secondItem="GNv-OL-kJP" secondAttribute="top" constant="20" id="TD5-vY-JOj"/>
                                     <constraint firstItem="DRE-ZG-s3m" firstAttribute="top" secondItem="GNv-OL-kJP" secondAttribute="top" constant="20" id="Y3F-Zs-Qas"/>
+                                    <constraint firstItem="C84-L0-ZYN" firstAttribute="width" secondItem="qQU-lo-ugf" secondAttribute="width" id="cB2-X2-FHV"/>
                                     <constraint firstItem="95I-wD-3yv" firstAttribute="leading" secondItem="GNv-OL-kJP" secondAttribute="leading" constant="10" id="dQr-jp-GpE"/>
                                     <constraint firstAttribute="trailing" secondItem="DRE-ZG-s3m" secondAttribute="trailing" constant="10" id="hqt-Ep-VnZ"/>
                                     <constraint firstItem="DRE-ZG-s3m" firstAttribute="height" secondItem="95I-wD-3yv" secondAttribute="height" id="wwa-ql-NBi"/>
@@ -58,6 +84,9 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="image.jpg" width="748" height="1024"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
